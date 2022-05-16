@@ -17,6 +17,6 @@ add_executable(md2040
   src/controller_state.cpp
 )
 
-target_link_libraries(md2040 pico_stdlib hardware_gpio)
+target_link_libraries(md2040 pico_stdlib hardware_gpio hardware_sync pico_multicore)
 
 pico_add_extra_outputs(md2040)

@@ -4,7 +4,5 @@
 #include "pico/stdio.h"
 #include "pico/stdlib.h"
 
-void normal(ControllerState *state);
-void third(ControllerState *state);
-void low(ControllerState *state);
+void send(uint32_t *state);
 void extended(ControllerState *state);

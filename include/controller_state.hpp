@@ -25,6 +25,9 @@ public:
   void press_dir(Direction dir);
   void release_dir(Direction dir);
 
+  void update_low_state(uint32_t *state);
+  void update_high_state(uint32_t *state);
+
 private:
   bool up_pressed;
   bool down_pressed;

@@ -31,3 +31,5 @@
 extern uint8_t INPUT_PINS[11];
 
 extern uint8_t OUTPUT_PINS[6];
+
+void set_bit(uint32_t *mask, uint pin, bool status);
